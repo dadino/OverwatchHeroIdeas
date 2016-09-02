@@ -15,18 +15,8 @@
 
 ##ABILITIES
 
-###Preying on the weak (Passive)
-Poisoned heroes are highlighted in red on your screen. 10% of damage done to poisoned targets is transfered to Haqim as healt.
-
-###Death puddle (Passive)
-When you die, you leave a puddle of poison. Enemies standing on it will suffer greatly.
-
-**Damage**: 0
-**Lowered HP**: 50/second
-**Duration**: 4 seconds
-
 ###Poison dart(LMB)
-He uses a blowgun, loaded with poison darts. Each dart lower target's max for 8 seconds. Stackable up to 4 times. 
+He uses a blowgun, loaded with poison darts. Each dart lower target's max for 8 seconds. 
 
 **Magazine size**: 1  
 **Damage**: 50/sec  
@@ -45,11 +35,16 @@ Throws a pot that creates a cloud of tick smoke. Auto targeting abilities don't 
 ###Scorpio Walk (Shift)
 Change your stance to 4 legged. You can't attack and move at the same time while in this stance. You can climb wall and ceilings. You move 30% faster. Press again to go back to normal stance.  
 
-###Underground scorpions (Ult)
-You raise your hands up in the air, the ground around you begins to rumble. Giant mechanical scorpions begin to erupt from the ground and start attacking enemies. The affected area grows quickly, while the attacks becomes more powerful. No direct damage is done, enemies in the circle have their max hp lowered by the scorpions.
+###Pure terror (Ult)
+An aura of terror invades everyone around you that can see you. It ticks every second, lowering the max hp pool.
 
-**Radius**: 5 -> 10m  
+**Radius**: 20m  
 **Damage**: 0  
-**Lowered HP**: 50 -> 100/s (gets higher as it grows)  
+**Lowered HP**:
+  
+| 0s | 1s | 2s | 3s | 4s | 5s |
+|--:|--:|--:|--:|--:|--:|
+| 25 | 50 | 100 | 150 | 150 | 150 | 
+
 **Debuff duration**: 8 sec  
-**Ult Duration**: 6 seconds (3 seconds to grow, 3 sec in full radius)
+**Ult Duration**: 5 seconds
